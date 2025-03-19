@@ -1,4 +1,11 @@
+*{
+  margin: 4px;
+  padding: 4px;
+}
 .header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-family: monospace;
   background: papayawhip;
 }
@@ -9,11 +16,15 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 6px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 a {
